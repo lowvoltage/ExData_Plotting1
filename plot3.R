@@ -19,7 +19,7 @@ with(df, lines(DateTime, Sub_metering_3, col="blue"))
 # Add legeng
 legend("topright", 
        lty="solid",
-       col = c("black", "blue", "red"),
+       col = c("black", "red", "blue"),
        legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
 
 # Close the PNG output device
