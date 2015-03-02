@@ -1,3 +1,4 @@
+# Load the data set using a common helper script
 source("plotCommon.R")
 
 df <- get.dataset()
